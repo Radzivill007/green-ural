@@ -1,0 +1,43 @@
+[
+  {
+    "bg": "../img/block-5-bg.jpg",
+    "title": "Свежие события",
+    "description": "Что происходит?",
+    "slider": [
+      {
+        "img": "../img/block-5-slider-item-1.jpg",
+        "date": "15 ноября, 2021",
+        "title": "Всемирный день рециклинга отмечают 15 ноября<br/><br/>",
+        "href": "/blog/vsemirnyj-den-reciklinga-otmechayut-15-noyabrya"
+      },
+      {
+        "img": "../img/block-5-slider-item-2.jpg",
+        "date": "18 ноября, 2021",
+        "title": "Нарушение природоохранного законодательства со стороны ООО «Стройкомплекс»",
+        "href": "/blog/v-fond-postupayut-obrashcheniya-zhitelej-o-narushenii-prirodoohrannogo-zakonodatelstva-so-storony-kompanii-ooo-strojkompleks"
+      },
+      {
+        "img": "../img/block-5-slider-item-3.jpg",
+        "date": "10 октября, 2021",
+        "title": "Спаси жизнь - сдай макулатуру!<br/><br/><br/>",
+        "href": "/blog/spasi-zhizn-sdaj-makulaturu"
+      },
+      {
+        "img": "../img/block-5-slider-item-4.jpg",
+        "date": "15 июля, 2021",
+        "title": "Фонд выступил против повышения утилизационного сбора для электротранспорта",
+        "href": "/blog/fond-zelyonyj-ural-vystupil-protiv-povysheniya-utilizacionnogo-sbora-dlya-ehlektrotransporta"
+      },
+      {
+        "img": "../img/block-5-slider-item-5.jpg",
+        "date": "20 декабря, 2021",
+        "title": "Компания «Артель Старателей Июсская» готовится к   изучению в Зоне санитарной охраны",
+        "href": "/blog/kompaniya-artel-staratelej-iyusskaya-gotovitsya-k-geologicheskomu-izucheniyu-v-zone-sanitarnoj-ohrany-chernoistochinskogo-vodohranilishcha"
+      }
+    ],
+    "btn": {
+      "text": "все новости",
+      "link": "/blog"
+    }
+  }
+]

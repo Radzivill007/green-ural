@@ -1,0 +1,225 @@
+@import 'vars';
+
+@function get-breakpoints($key: 'md') {
+  @return map-get($grid-breakpoints, $key);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Jost';
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0.1px;
+  @media (max-width: 557px) {
+    width: 0px;
+  }
+  &-track {
+    background: transparent;
+    margin-bottom: 0.6rem;
+  }
+
+  &-thumb {
+    background: $primary;
+    border-radius: 10px;
+    &:hover {
+      background: $secondary;
+    }
+  }
+}
+
+button {
+  border: 0;
+  color: $white;
+  padding: 10px 20px;
+  background-color: $primary;
+  font-size: 16px;
+  font-weight: 700;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  & a {
+    color: $white !important;
+    &:hover {
+      color: $white !important;
+    }
+  }
+}
+
+.bg {
+  padding-top: 360px;
+  padding-bottom: 120px;
+  @media (max-width: 960px) {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+  & h1 {
+    text-align: center;
+    color: $white;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    letter-spacing: 0px;
+    @media (max-width: 960px) {
+      font-size: 30px;
+      line-height: 1.2;
+    }
+  }
+  & p {
+    text-align: center;
+    color: $green-light;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+}
+
+.container {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  @media (min-width: 600px) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  @media (min-width: 1280px) {
+    max-width: 1280px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.col-3 {
+  position: relative;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  flex: 0 0 25%;
+  max-width: 25%;
+  @media (max-width: 960px) {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  @media (max-width: 577px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.col-4 {
+  position: relative;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  flex: 0 0 33.3%;
+  max-width: 33.3%;
+  @media (max-width: 960px) {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  @media (max-width: 577px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.col-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  flex: 0 0 50%;
+  max-width: 50%;
+  @media (max-width: 960px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  @media (max-width: 577px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.col-8 {
+  position: relative;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+  @media (max-width: 960px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  @media (max-width: 577px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+a {
+  color: $white;
+  text-decoration: none !important;
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+.menu {
+  @media (max-width: 960px) {
+    transition: all 0.5s;
+    transform: translateX(0px);
+    opacity: 1;
+    &.show {
+      transform: translateX(-350px);
+      opacity: 0.25;
+      @media (max-width: 577px) {
+        transform: translateX(-250px);
+      }
+    }
+  }
+}
+//import slick
+@import './slick.css';
+@import './slick-theme.css';
+//import components
+@import './components/navbar.scss';
+@import './components/footer.scss';
+@import './components/modal.scss';
+@import './components/blog.scss';
+@import './components/team.scss';
+@import './components/teamPage.scss';
+@import './components/docs.scss';
+@import './components/about-first.scss';
+@import './components/about-second.scss';
+@import './components/about-third.scss';
+@import './components/contacts.scss';
+@import './components/smi.scss';
+@import './components/projectPage.scss';
+@import './components/partnery.scss';
+@import './components/blogPage.scss';
+@import './components/donate.scss';
+@import './components/policy.scss';
+//import blocks
+@import './blocks/first.scss';
+@import './blocks/second.scss';
+@import './blocks/third.scss';
+@import './blocks/five.scss';

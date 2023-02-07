@@ -1,0 +1,74 @@
+[
+  {
+    "titleOfPage": "Наши Инициативы",
+    "descriptionOfPage": "Страница инициативы",
+    "keywordsOfPage": ["meropriyatiya", "Благотворительная организация"],
+    "title": "Green Ural meropriyatiya Page",
+    "description": "Page caption here",
+    "items": [
+      {
+        "img": "../img/blog/blog-1.jpg",
+        "title": "Здоровый водоём",
+        "href": "zdorovyj-vodoyom",
+        "date": "APRIL 9, 2019",
+        "author": "JAMES SMITH"
+      },
+      {
+        "img": "../img/blog/blog-2.jpg",
+        "title": "Лесная уборка",
+        "href": "lesnaya-uborka",
+        "date": "APRIL 7, 2019",
+        "author": "JAMES SMITH"
+      },
+      {
+        "img": "../img/blog/blog-3.jpg",
+        "title": "Экологическая инициатива Свердловской области",
+        "href": "ehkologicheskaya-iniciativa-sverdlovskoj-oblasti",
+        "date": "APRIL 7, 2019",
+        "author": "JAMES SMITH"
+      },
+      {
+        "img": "../img/blog/blog-4.jpg",
+        "title": "Отряд Добровольцев",
+        "href": "otryad-dobrovolcev",
+        "date": "APRIL 7, 2019",
+        "author": "JAMES SMITH"
+      },
+      {
+        "img": "../img/blog/blog-5.jpg",
+        "title": "Зелёная школа",
+        "href": "zelyonaya-shkola",
+        "date": "APRIL 7, 2019",
+        "author": "JAMES SMITH"
+      },
+      {
+        "img": "../img/blog/blog-6.jpg",
+        "title": "Опасные отходы",
+        "href": "opasnye-othody",
+        "date": "APRIL 7, 2019",
+        "author": "JAMES SMITH"
+      },
+      {
+        "img": "../img/blog/blog-1.jpg",
+        "title": "РСО-в каждый двор!",
+        "href": "rso-v-kazhdyj-dvor",
+        "date": "APRIL 7, 2019",
+        "author": "JAMES SMITH"
+      },
+      {
+        "img": "../img/blog/blog-6.jpg",
+        "title": "Сохраним лес",
+        "href": "sohranim-les",
+        "date": "APRIL 7, 2019",
+        "author": "JAMES SMITH"
+      },
+      {
+        "img": "../img/blog/blog-6.jpg",
+        "title": "Работа с обращениями граждан",
+        "href": "rabota-s-obrashcheniyami-grazhdan",
+        "date": "APRIL 7, 2019",
+        "author": "JAMES SMITH"
+      }
+    ]
+  }
+]

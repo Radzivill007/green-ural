@@ -1,0 +1,30 @@
+.docs-page {
+  padding: 90px 0px 50px 0px;
+  & .docs-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 2rem;
+    & img {
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    & p {
+      color: rgb(0, 0, 0);
+    }
+    & a {
+      color: #383838;
+      font-weight: 600;
+      &:hover {
+        color: #3bcf93 !important;
+        cursor: pointer;
+      }
+    }
+    .doc-name {
+      margin-left: 10px;
+    }
+  }
+}

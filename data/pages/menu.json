@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Главная",
+    "url": "/"
+  },
+  {
+    "name": "О нас",
+    "url": "/o-nas",
+    "items": [
+      {
+        "name": "О фонде",
+        "url": "/o-fonde"
+      },
+      {
+        "name": "Руководство",
+        "url": "/team"
+      },
+      {
+        "name": "Совет",
+        "url": "/sovet"
+      },
+      {
+        "name": "Партнеры",
+        "url": "/partnery"
+      },
+      {
+        "name": "Пожертвовать",
+        "url": "/donate"
+      }
+    ]
+  },
+  {
+    "name": "Документы",
+    "url": "/dokumenty",
+    "items": [
+      {
+        "name": "Учредительные документы",
+        "url": "/uchreditelnye-dokumenty"
+      },
+      {
+        "name": "Документы для вступления",
+        "url": "/dokumenty-dlya-vstupleniya"
+      },
+      {
+        "name": "Отчеты",
+        "url": "/otchety"
+      }
+    ]
+  },
+  {
+    "name": "Новости",
+    "url": "/blog"
+  },
+  {
+    "name": "Деятельность",
+    "url": "/deyatelnost",
+    "items": [
+      {
+        "name": "Проекты",
+        "url": "/proekty"
+      },
+      {
+        "name": "Мероприятия",
+        "url": "/meropriyatiya"
+      }
+    ]
+  },
+  {
+    "name": "СМИ о нас",
+    "url": "/smi-o-nas"
+  },
+  {
+    "name": "Контакты",
+    "url": "/contacts"
+  }
+]

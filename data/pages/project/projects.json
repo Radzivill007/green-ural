@@ -1,0 +1,74 @@
+[
+  {
+    "titleOfPage": "Наши Проекты",
+    "descriptionOfPage": "Страница Проекты",
+    "keywordsOfPage": ["project", "Благотворительная организация"],
+    "title": "Green Ural Project Page",
+    "description": "Page caption here",
+    "items": [
+      {
+        "img": "../img/project/project-1.jpg",
+        "title": "Здоровый водоём",
+        "href": "zdorovyj-vodoyom",
+        "date": "5 ИЮЛЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/project/project-2.jpg",
+        "title": "Лесная уборка",
+        "href": "lesnaya-uborka",
+        "date": "19 АВГУСТА, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/project/project-3.jpg",
+        "title": "Экологическая инициатива Свердловской области",
+        "href": "ehkologicheskaya-iniciativa-sverdlovskoj-oblasti",
+        "date": "15 НОЯБРЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/project/project-4.jpg",
+        "title": "Отряд Добровольцев",
+        "href": "otryad-dobrovolcev",
+        "date": "12 ОКТЯБРЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/project/project-5.jpg",
+        "title": "Зелёная школа",
+        "href": "zelyonaya-shkola",
+        "date": "1 СЕНТЯБРЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/project/project-6.jpg",
+        "title": "Опасные отходы",
+        "href": "opasnye-othody",
+        "date": "24 СЕНТЯБРЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/project/project-7.jpg",
+        "title": "РСО-в каждый двор!",
+        "href": "rso-v-kazhdyj-dvor",
+        "date": "8 НОЯБРЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/project/project-8.jpg",
+        "title": "Сохраним лес",
+        "href": "sohranim-les",
+        "date": "17 ИЮНЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/project/project-9.jpg",
+        "title": "Работа с обращениями граждан",
+        "href": "rabota-s-obrashcheniyami-grazhdan",
+        "date": "28 ДЕКАБРЯ, 2021",
+        "author": ""
+      }
+    ]
+  }
+]

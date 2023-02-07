@@ -1,0 +1,15 @@
+[
+  {
+    "bg": "./img/page-bg.jpg",
+    "phone": "+7 (996) 174 60 40",
+    "phoneLink": "tel:+79961746040",
+    "mail": "info@greenural.com",
+    "mailpr": "pr@greenural.com ",
+    "town": "Екатеринбург",
+    "instagram": "https://www.instagram.com/greenural_fond/",
+    "telegram": "@greenural",
+    "facebook": "https://www.facebook.com/greenuralfond",
+    "whatsapp": "https://api.whatsapp.com/send?phone=79961746040&text=Здравствуйте,",
+    "vk": "https://vk.com/greenural_fond"
+  }
+]

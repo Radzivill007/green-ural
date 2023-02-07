@@ -1,0 +1,29 @@
+.donate {
+  padding: 40px 0px 40px;
+  @media (max-width: 960px) {
+    padding: 40px 0px 0px;
+  }
+  & h3 {
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #282828;
+    padding-bottom: 25px;
+    @media (max-width: 960px) {
+      font-size: 28px;
+    }
+  }
+  & p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #282828;
+    line-height: 1.7;
+    padding-bottom: 33px;
+    @media (max-width: 960px) {
+      font-size: 15px;
+    }
+  }
+}

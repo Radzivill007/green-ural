@@ -1,0 +1,46 @@
+[
+  {
+    "titleOfPage": "Новости",
+    "descriptionOfPage": "Страница Новости",
+    "keywordsOfPage": ["blog", "Благотворительная организация"],
+    "title": "Green Ural Blog Page",
+    "description": "Page caption here",
+    "items": [
+      {
+        "img": "../img/blog/blog-1.jpg",
+        "title": "Всемирный день рециклинга отмечают 15 ноября",
+        "href": "vsemirnyj-den-reciklinga-otmechayut-15-noyabrya",
+        "date": "15 НОЯБРЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/blog/blog-2.jpg",
+        "title": "В Фонд поступают обращения жителей о нарушении природоохранного законодательства со стороны компании ООО «Стройкомплекс»",
+        "href": "v-fond-postupayut-obrashcheniya-zhitelej-o-narushenii-prirodoohrannogo-zakonodatelstva-so-storony-kompanii-ooo-strojkompleks",
+        "date": "18 НОЯБРЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/blog/blog-3.jpg",
+        "title": "Спаси жизнь - сдай макулатуру!",
+        "href": "spasi-zhizn-sdaj-makulaturu",
+        "date": "10 ОКТЯБРЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/blog/blog-4.jpg",
+        "title": "Фонд «Зелёный Урал» выступил против повышения утилизационного сбора для электротранспорта",
+        "href": "fond-zelyonyj-ural-vystupil-protiv-povysheniya-utilizacionnogo-sbora-dlya-ehlektrotransporta",
+        "date": "15 ИЮЛЯ, 2021",
+        "author": ""
+      },
+      {
+        "img": "../img/blog/blog-5.jpg",
+        "title": "Компания «Артель Старателей Июсская» готовится к геологическому изучению в Зоне санитарной охраны Черноисточинского водохранилища",
+        "href": "kompaniya-artel-staratelej-iyusskaya-gotovitsya-k-geologicheskomu-izucheniyu-v-zone-sanitarnoj-ohrany-chernoistochinskogo-vodohranilishcha",
+        "date": "20 ДЕКАБРЯ, 2021",
+        "author": ""
+      }
+    ]
+  }
+]

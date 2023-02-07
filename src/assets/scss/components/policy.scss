@@ -1,0 +1,13 @@
+.policy {
+  padding: 40px 0px 40px;
+  & p {
+    font-size: 15px;
+    padding-bottom: 16px;
+  }
+  & a {
+    color: $primary;
+    &:hover {
+      color: $green-light !important;
+    }
+  }
+}

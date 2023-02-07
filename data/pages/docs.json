@@ -1,0 +1,38 @@
+[
+  {
+    "itemsFirst": [
+      {
+        "title": "Лист ЕГРЮЛ",
+        "href": "https://greenural.com/files/лист-егрюл.pdf"
+      },
+      {
+        "title": "Реквизиты фонда",
+        "href": "https://greenural.com/files/реквизиты-фонда.pdf"
+      },
+      {
+        "title": "Свидетельство о регистрации",
+        "href": "https://greenural.com/files/свидетельство-о-регистрации.pdf"
+      },
+      {
+        "title": "Свидетельство ФНС",
+        "href": "https://greenural.com/files/свидетельство-фнс.pdf"
+      },
+      {
+        "title": "Устав фонда",
+        "href": "https://greenural.com/files/устав.pdf"
+      }
+    ],
+    "itemsSecond": [
+      {
+        "title": "Анкета добровольца фонда Зеленый Урал",
+        "href": "https://greenural.com/files/анкета-добровольца-фонда-зеленый-урал.docx"
+      }
+    ],
+    "itemsThird": [
+      {
+        "title": "",
+        "href": ""
+      }
+    ]
+  }
+]

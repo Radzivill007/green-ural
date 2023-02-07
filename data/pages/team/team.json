@@ -1,0 +1,70 @@
+[
+  {
+    "titleOfPage": "TeamPage",
+    "descriptionOfPage": "Страница TeamPage",
+    "keywordsOfPage": ["team", "Благотворительная организация"],
+    "title": "Руководство",
+    "items": [
+      {
+        "img": "../img/team/teamDmitriy.jpg",
+        "title": "Завьялов Дмитрий Николаевич",
+        "text": "",
+        "position": "Вице-президент по стратегическому и региональному развитию",
+        "email": "dz@greenural.com",
+        "href": ""
+      },
+      {
+        "img": "../img/team/teamNikita.jpg",
+        "title": "Соловьев Никита Александрович",
+        "text": "",
+        "position": "Президент фонда<br><br>",
+        "email": "info@greenural.com",
+        "href": ""
+      },
+      {
+        "img": "../img/team/teamEduard.jpg",
+        "title": "Мансуров Эдуард Гафурович",
+        "text": "",
+        "position": "Вице-президент, руководитель юридического отдела",
+        "email": "em@greenural.com",
+        "href": ""
+      }
+    ],
+    "itemsSecond": [
+      {
+        "img": "../img/team/teamNikita.jpg",
+        "title": "Nikita Tutov",
+        "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.",
+        "position": "Direktor",
+        "email": "nikita@mail.ru",
+        "href": "nikita"
+      },
+      {
+        "img": "../img/team/teamIvan.jpg",
+        "title": "Ivan Covidov",
+        "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.",
+        "position": "Helper of Direktor",
+        "email": "ivan@mail.ru",
+        "href": "ivan"
+      }
+    ],
+    "itemsThird": [
+      {
+        "img": "../img/team/teamNikita.jpg",
+        "title": "Nikita Tutov",
+        "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.",
+        "position": "Direktor",
+        "email": "nikita@mail.ru",
+        "href": "nikita"
+      },
+      {
+        "img": "../img/team/teamIvan.jpg",
+        "title": "Ivan Covidov",
+        "text": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.",
+        "position": "Helper of Direktor",
+        "email": "ivan@mail.ru",
+        "href": "ivan"
+      }
+    ]
+  }
+]

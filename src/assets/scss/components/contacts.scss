@@ -1,0 +1,189 @@
+.contactsPage {
+  & .one {
+    background-color: #161616;
+    padding: 50px 0 90px;
+    @media (max-width: 768px) {
+      padding-bottom: 20px;
+    }
+    .col-4 {
+      position: relative;
+      width: 100%;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+      @media (max-width: 768px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-bottom: 40px;
+      }
+    }
+    & h3 {
+      color: $white;
+      font-size: 26px;
+      letter-spacing: 0px;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 25px;
+    }
+    & p {
+      color: $green-light;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    & span {
+      font-size: 16px;
+      color: $white;
+    }
+  }
+  & .two {
+    background-color: #f3f3f3;
+    padding: 90px 0 80px;
+    @media (max-width: 768px) {
+      padding-top: 40px;
+    }
+    & h2 {
+      font-size: 39px;
+      letter-spacing: 0px;
+      color: $black;
+      font-weight: 700;
+      margin-bottom: 10px;
+      text-align: center;
+      @media (max-width: 960px) {
+        font-size: 32px;
+        line-height: 1.2em;
+      }
+    }
+    & p {
+      font-size: 19px;
+      margin-bottom: 60px;
+      color: $gray-link;
+      text-align: center;
+      @media (max-width: 960px) {
+        font-size: 15px;
+        line-height: 1.2em;
+      }
+    }
+    & form {
+      max-width: 760px;
+      padding: 0 20px;
+      margin: 0 auto;
+      & input,
+      & textarea,
+      & select {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        padding: 15px 22px;
+        color: rgb(133, 133, 133) !important;
+        border: 0;
+        outline: 0;
+        margin-bottom: 14px;
+        appearance: none;
+        background-color: rgb(255, 255, 255);
+        -webkit-appearance: none;
+        resize: vertical;
+        & option {
+          color: #4e4e4e !important;
+          border: none !important;
+          font-size: 15px;
+        }
+      }
+      & .personal {
+        color: #757575;
+        margin-bottom: 14px;
+        // text-align: center;
+        & a {
+          color: $primary;
+          &:hover {
+            color: $green-light !important;
+          }
+        }
+      }
+      & button {
+        width: 100%;
+        text-transform: uppercase;
+        &:hover {
+          transform: none;
+          background-color: $green-light;
+        }
+      }
+    }
+  }
+  .spasibo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.3s;
+    @media (max-width: 768px) {
+      top: 70%;
+    }
+    &.show {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    & > p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 150px;
+      background-color: #fff;
+      color: black;
+      padding: 15px;
+      padding-left: 30px;
+      margin: 0;
+      font-size: 20px;
+      box-shadow: 0px 0px 5px rgba($color: #000, $alpha: 0.5);
+    }
+    & .close {
+      cursor: pointer;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      &::before,
+      &::after {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 3px;
+        position: absolute;
+        top: 50%;
+        left: 2px;
+        transform: rotateZ(-45deg);
+        background-color: black;
+      }
+      &::before {
+        transform: rotateZ(45deg);
+      }
+    }
+  }
+  & .three {
+    background-color: $white;
+    padding: 120px 0;
+    @media (max-width: 768px) {
+      padding: 60px 0;
+    }
+    & .social {
+      text-align: center;
+      & a {
+        margin-right: 40px;
+        @media (max-width: 768px) {
+          margin-right: 5px;
+        }
+        & svg {
+          fill: $black;
+          width: 60px;
+          height: 60px;
+          &:hover {
+            fill: $primary;
+          }
+        }
+      }
+    }
+  }
+}
